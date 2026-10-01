@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Katinat Coffee &amp; Tea House – 91 Đồng Khởi, Phường Sài Gòn (trang demo Local SEO)</title>
+<meta name="description" content="Trang cửa hàng mẫu: địa chỉ, số điện thoại, giờ mở cửa và chỉ đường đến Katinat Coffee &amp; Tea House 91 Đồng Khởi, Phường Sài Gòn, TP. Hồ Chí Minh.">
+<meta name="robots" content="index, follow">
+
+<!-- TODO: sau khi đưa lên GitHub Pages/Netlify, tìm & thay TOÀN BỘ "https://example.com" bằng URL thật
+     (canonical, og:url, og:image, schema @id/url/image). -->
+<link rel="canonical" href="https://example.com/cua-hang/dong-khoi/">
+
+<!-- Favicon (SVG nhúng sẵn, không cần file ngoài) -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%237a4b2a'/%3E%3Ctext x='32' y='44' font-size='36' font-weight='700' text-anchor='middle' fill='white' font-family='Arial'%3EK%3C/text%3E%3C/svg%3E">
+
+<!-- Open Graph / Twitter -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:site_name" content="Katinat Coffee &amp; Tea House (demo)">
+<meta property="og:title" content="Katinat Coffee &amp; Tea House – 91 Đồng Khởi, Phường Sài Gòn">
+<meta property="og:description" content="Địa chỉ, số điện thoại, giờ mở cửa và chỉ đường đến Katinat Coffee &amp; Tea House 91 Đồng Khởi, Phường Sài Gòn, TP. Hồ Chí Minh.">
+<meta property="og:url" content="https://example.com/cua-hang/dong-khoi/">
+<!-- TODO: og:image cần là file ảnh thật (JPG/PNG 1200×630) đặt cùng repo -->
+<meta property="og:image" content="https://example.com/katinat-dong-khoi.jpg">
+<meta property="og:image:alt" content="Khu vực trước cửa hàng Katinat tại 91 Đồng Khởi, Phường Sài Gòn, TP. Hồ Chí Minh">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- TODO sameAs: thêm URL Facebook và MoMo chính thức của thương hiệu vào mảng "sameAs" sau khi đã kiểm tra (nhớ dấu phẩy).
+     Schema LocalBusiness (JSON-LD): khớp với NAP hiển thị bên dưới.
+     Giờ mở cửa và priceRange là GIÁ TRỊ MINH HỌA. Không có aggregateRating (không dùng đánh giá giả). -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CafeOrCoffeeShop",
+  "@id": "https://example.com/cua-hang/dong-khoi/#cafe",
+  "name": "Katinat Coffee & Tea House",
+  "description": "Cửa hàng Katinat Coffee & Tea House tại 91 Đồng Khởi, Phường Sài Gòn, TP. Hồ Chí Minh.",
+  "url": "https://example.com/cua-hang/dong-khoi/",
+  "image": ["https://example.com/katinat-dong-khoi.jpg"],
+  "telephone": "+842873001009",
+  "priceRange": "₫₫",
+  "hasMap": "https://www.google.com/maps/search/?api=1&query=91+%C4%90%E1%BB%93ng+Kh%E1%BB%9Fi+Ph%C6%B0%E1%BB%9Dng+S%C3%A0i+G%C3%B2n+TP+H%E1%BB%93+Ch%C3%AD+Minh",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "91 Đồng Khởi",
+    "addressLocality": "Phường Sài Gòn",
+    "addressRegion": "Thành phố Hồ Chí Minh",
+    "postalCode": "70000",
+    "addressCountry": "VN"
+  },
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "opens": "07:00",
+    "closes": "22:00"
+  }],
+  "parentOrganization": {
+    "@type": "Organization",
+    "name": "Katinat Coffee & Tea House (Công ty CP Café Katinat)",
+    "url": "https://katinat.vn/"
+  },
+  "sameAs": [
+    "https://katinat.vn/"
+  ]
+}
+</script>
+
+<style>
+:root{
+  --bg:#faf7f2; --fg:#2b2118; --muted:#6b5d50; --card:#fff; --brand:#7a4b2a; --line:#e7ddd0;
+  /* Nút: nền đậm hơn, chữ trắng đạt tương phản ~6.5:1 (chuẩn WCAG AA ≥ 4.5:1) */
+  --btn-bg:#8a4f22; --btn-fg:#fff;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root{--bg:#1c1712; --fg:#f2e9de; --muted:#b9ab9b; --card:#27201a; --brand:#d9a066; --line:#3a3027;
+        --btn-bg:#e0b07a; --btn-fg:#1c1712}
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:var(--bg);color:var(--fg);line-height:1.6}
+header{background:#7a4b2a;color:#fff;padding:20px 16px}
+.wrap{max-width:960px;margin:0 auto;padding:0 16px}
+header h1{margin:0;font-size:1.4rem}
+header p{margin:4px 0 0;opacity:.9;font-size:.95rem}
+main{padding:20px 0 40px}
+.hero{margin:0 0 20px}
+.hero img{display:block;width:100%;height:auto;border-radius:14px;border:1px solid var(--line)}
+.hero figcaption{font-size:.8rem;color:var(--muted);margin-top:6px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}
+.card h2{margin:0 0 8px;font-size:1rem;color:var(--brand)}
+.card p{margin:0;color:var(--muted)}
+.actions{display:flex;gap:12px;margin:20px 0;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 22px;border-radius:12px;font-weight:600;text-decoration:none;background:var(--btn-bg);color:var(--btn-fg)}
+.btn.alt{background:transparent;color:var(--brand);border:2px solid var(--brand)}
+table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+td,th{padding:10px 14px;text-align:left;border-bottom:1px solid var(--line)}
+th{color:var(--brand)}
+.scroll{overflow-x:auto}
+h2.sec{margin:28px 0 10px;font-size:1.15rem}
+.map{border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.map iframe{display:block;width:100%;height:320px;border:0}
+.note{font-size:.85rem;color:var(--muted);margin-top:24px;border-top:1px solid var(--line);padding-top:12px}
+.hint{font-size:.85rem;color:var(--muted);margin-top:8px!important}
+#vp{font-weight:600;color:var(--brand)}
+
+/* Responsive: 1 cột + nút rộng trên điện thoại */
+@media (max-width:640px){
+  .grid{grid-template-columns:1fr}
+  .btn{width:100%}
+  header h1{font-size:1.2rem}
+  .map iframe{height:260px}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>Katinat Coffee &amp; Tea House – Đồng Khởi</h1>
+    <p>Trang cửa hàng mẫu tối ưu Local SEO &amp; Mobile-first</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <!-- Ảnh chụp thật của nhóm. Giữ alt mô tả đúng nội dung ảnh. -->
+  <figure class="hero">
+  <img alt="Khu vực trước cửa hàng Katinat tại 91 Đồng Khởi, Phường Sài Gòn, TP. Hồ Chí Minh"
+       width="1200" height="675" loading="eager"
+       src="katinat-dong-khoi.jpg">
+  <figcaption>Ảnh chụp tại cửa hàng (sinh viên tự chụp).</figcaption>
+</figure>
+  <div class="actions">
+    <a class="btn" href="tel:+842873001009">📞 Gọi hotline (028) 7300 1009</a>
+    <a class="btn alt" href="https://www.google.com/maps/search/?api=1&amp;query=91+%C4%90%E1%BB%93ng+Kh%E1%BB%9Fi+Ph%C6%B0%E1%BB%9Dng+S%C3%A0i+G%C3%B2n+TP+H%E1%BB%93+Ch%C3%AD+Minh" rel="noopener">📍 Chỉ đường trên Google Maps</a>
+  </div>
+
+  <!-- NAP hiển thị dạng văn bản, khớp schema -->
+  <section class="grid" aria-label="Thông tin cửa hàng (NAP)">
+    <article class="card"><h2>Tên (Name)</h2><p>Katinat Coffee &amp; Tea House</p></article>
+    <article class="card"><h2>Địa chỉ (Address)</h2><p>91 Đồng Khởi, Phường Sài Gòn, TP. Hồ Chí Minh</p></article>
+    <article class="card">
+      <h2>Điện thoại (Phone)</h2>
+      <p><a href="tel:+842873001009" style="color:inherit">(028) 7300 1009</a></p>
+      <p class="hint">Hotline chung của chuỗi, không phải số riêng của cửa hàng này.</p>
+    </article>
+  </section>
+
+  <h2 class="sec">Giờ mở cửa (minh họa)</h2>
+  <div class="scroll">
+    <table>
+      <tr><th>Ngày</th><th>Giờ</th></tr>
+      <tr><td>Thứ Hai – Chủ Nhật</td><td>7:00 – 23:00</td></tr>
+    </table>
+  </div>
+
+  <h2 class="sec">Bản đồ</h2>
+  <div class="map">
+    <iframe title="Bản đồ Google Maps: Katinat Coffee &amp; Tea House 91 Đồng Khởi, Phường Sài Gòn"
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen
+            src="https://www.google.com/maps?q=91+%C4%90%E1%BB%93ng+Kh%E1%BB%9Fi%2C+Ph%C6%B0%E1%BB%9Dng+S%C3%A0i+G%C3%B2n%2C+TP+H%E1%BB%93+Ch%C3%AD+Minh&amp;output=embed"></iframe>
+  </div>
+
+  <h2 class="sec">Kiểm tra responsive ngay trên trang</h2>
+  <div class="card"><p>Độ rộng khung nhìn hiện tại: <span id="vp">…</span> px. Kéo thu nhỏ cửa sổ dưới 640 px (hoặc mở trên điện thoại) để thấy 3 cột chuyển thành 1 cột và nút gọi chiếm toàn chiều rộng.</p></div>
+
+  <p class="note">Đây là trang demo phục vụ học tập, không phải website chính thức của Katinat. Số điện thoại lấy từ chân trang katinat.vn (quan sát 30/09/2026); địa chỉ theo đơn vị hành chính mới (Phường Sài Gòn) như hiển thị trên Google Maps; số điện thoại là hotline chung của chuỗi. Giờ mở cửa và mức giá (priceRange) là giá trị minh họa; URL canonical, Open Graph và schema đang dùng địa chỉ giả định (example.com), cần thay bằng tên miền thật sau khi triển khai.</p>
+</main>
+
+<script>
+function u(){document.getElementById('vp').textContent=window.innerWidth}
+u();window.addEventListener('resize',u);
+</script>
+</body>
+</html>
